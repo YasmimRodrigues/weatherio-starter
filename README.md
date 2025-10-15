@@ -1,61 +1,49 @@
+# 🌦️ Weather App
 
-# Project Title
+A web application that displays real-time weather information using the **OpenWeather API**.  
+This project is based on the original code by **[@Sadee](https://github.com/codewithsadee/weatherio-starter)** (MIT License) and has been **modified by [@YasmimRodrigues](https://github.com/YasmimRodrigues)**.
 
-A brief description of what this project does and who it's for
+---
 
-## Tech Stack
+## 🧩 Features
 
-**Client:** HTML, CSS, JavaScript, API
+- Search for the current weather by city name.  
+- Displays temperature, humidity, wind speed, and weather description.  
+- Modern, responsive, and user-friendly interface.  
+- Dynamic icons that change according to weather conditions.  
+- Automatic update of weather information.  
 
-## Demo
+---
 
-Insert gif or link to demo
+## 🛠️ Technologies Used
 
-## Features
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (ES6+)**  
+- **OpenWeather API**
 
-- Feature 1
-- Feature 2
-- Feature 3
+---
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Open with VSCode
-
-```bash
-  code .
-```
-
-Open with live server
-
-```bash
-  npm run start
-```
-
-
-## Authors
-
-- [@codewithsadee](https://www.github.com/codewithsadee)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## Support
-
-For support, Join my [Patreon Comunity](https://www.patreon.com/codewithsadee/membership) or Subscribe My [YouTube Channel](https://youtube.com/@codewithsadee).
+## 🗂️ Project Structure
+  ```
+    weatherio/
+    │
+    ├── assets/
+    │ ├── css/
+    │ │ └── style.css
+    │ ├── font/
+    │ └── images/
+    │
+    ├── js/
+    │ ├── api.js # Handles API requests
+    │ ├── app.js # Main app logic
+    │ ├── module.js # Helper modules
+    │ └── route.js # Internal routing control
+    │
+    ├── favicon.svg
+    ├── index.html
+    ├── index.txt
+    ├── README.md
+    ├── LICENSE
+    └── style-guide.md
+  ```
