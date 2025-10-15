@@ -42,6 +42,8 @@ This project is based on the original code by **[@Sadee](https://github.com/code
     │
     ├── favicon.svg
     ├── index.html
+    ├── index.txt
+    ├── README.md
     ├── LICENSE
-    └── README.md
+    └── style-guide.md
   ```
